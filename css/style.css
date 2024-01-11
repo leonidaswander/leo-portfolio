@@ -18,7 +18,7 @@
 }
 
 .sticky {
-    background-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: #2a0044 !important;
     padding: 8px 20px !important;
 }
 
@@ -36,6 +36,11 @@
 .color-white {
     color: #FFFFFF !important;
 }
+
+.color-purple{
+    color: #2a0044  !important;
+}
+
 
 .nav-btn-icon {
     color: #FFFFFF;
@@ -66,7 +71,7 @@
 /* SECTION NO 1 */
 
 .section-1 {
-    background-color: #F2F2F2;
+    background-color: #2a0044;
     height: 450px;
     padding: 0px;
 }
@@ -736,10 +741,11 @@
 .sec5-btn {
     font-family: Roboto, sans-serif;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #2a0044 ;
     letter-spacing: 2px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border: none;
+	border-radius: 5px;
     box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
 }
@@ -753,6 +759,11 @@
 
 .sec5-btn:active {
     transform: translateY(0px);
+}
+
+#modalProjetos a{
+	text-decoration: none;
+	color: #000;
 }
 
 @media (max-width: 426px) {
@@ -1241,6 +1252,12 @@
   }
 }
   
+.border-project{
+border: 1px solid #c7c7c7;
+	border-radius: 10px;
+	padding: 25px 25px;
+}
+
 @media screen and (max-width: 766px)
 {
   .wptwa-container {
