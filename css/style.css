@@ -46,6 +46,10 @@
     color: #FFFFFF;
 }
 
+.btn.btn-primary{
+	background: #2a0044;
+	color: #fff  !important;
+}
 @media (max-width: 426px) {
     #navbar {
         padding: 5px 10px;
@@ -955,12 +959,14 @@
 .card-circle {
     width: 100px;
     height: 100px;
-    background-color: #3E64FF;
+    background-color: #2a0044;
     border-radius: 50%;
     margin: 10px auto;
     position: relative;
 }
-
+a {
+    color: #2a0044 !important;
+}
 .card-circle-icon {
     font-size: 34px;
     color: #FFFFFF;
@@ -1207,7 +1213,11 @@
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	width: 100%
 }
 .itemSite a{
 	text-decoration: none;
